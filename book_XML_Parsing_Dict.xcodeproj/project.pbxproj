@@ -12,6 +12,8 @@
 		1467DDB62169CD6A008FE0E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1467DDB42169CD6A008FE0E2 /* Main.storyboard */; };
 		1467DDB82169CD6B008FE0E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1467DDB72169CD6B008FE0E2 /* Assets.xcassets */; };
 		1467DDBB2169CD6B008FE0E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1467DDB92169CD6B008FE0E2 /* LaunchScreen.storyboard */; };
+		1467DDC32169CDCD008FE0E2 /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 1467DDC22169CDCD008FE0E2 /* book.xml */; };
+		1467DDC52169CEA0008FE0E2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467DDC42169CEA0008FE0E2 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1467DDB72169CD6B008FE0E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1467DDBA2169CD6B008FE0E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1467DDBC2169CD6B008FE0E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1467DDC22169CDCD008FE0E2 /* book.xml */ = {isa = PBXFileReference; explicitFileType = text.xml; path = book.xml; sourceTree = "<group>"; };
+		1467DDC42169CEA0008FE0E2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				1467DDB72169CD6B008FE0E2 /* Assets.xcassets */,
 				1467DDB92169CD6B008FE0E2 /* LaunchScreen.storyboard */,
 				1467DDBC2169CD6B008FE0E2 /* Info.plist */,
+				1467DDC22169CDCD008FE0E2 /* book.xml */,
+				1467DDC42169CEA0008FE0E2 /* TableViewCell.swift */,
 			);
 			path = book_XML_Parsing_Dict;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				1467DDBB2169CD6B008FE0E2 /* LaunchScreen.storyboard in Resources */,
 				1467DDB82169CD6B008FE0E2 /* Assets.xcassets in Resources */,
+				1467DDC32169CDCD008FE0E2 /* book.xml in Resources */,
 				1467DDB62169CD6A008FE0E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1467DDC52169CEA0008FE0E2 /* TableViewCell.swift in Sources */,
 				1467DDB32169CD6A008FE0E2 /* ViewController.swift in Sources */,
 				1467DDB12169CD6A008FE0E2 /* AppDelegate.swift in Sources */,
 			);
